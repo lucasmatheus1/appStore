@@ -1,17 +1,19 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {createStackNavigator, createDrawerNavigator} from 'react-navigation';
-import {TouchableOpacity, Text, View} from 'react-native';
+import {TouchableOpacity} from 'react-native';
 import Icon from 'react-native-vector-icons/Entypo';
-
-import Main from './pages/main';
-import Product from './pages/product';
 
 import Login from './pages/login';
 
+import lojasNacionais from './pages/lojasNacionais';
+import lojasinternacionais from './pages/product';
+
+import Product from './pages/product';
+
 const drawerPages = createDrawerNavigator(
   {
-    Main: Main,
-    Product: Product,
+    lojasNacionais: lojasNacionais,
+    lojasinternacionais: lojasinternacionais,
   },
   {
     navigationOptions: {},
@@ -50,7 +52,8 @@ const StackLogin = createStackNavigator(
 );
 
 const StackExport = createStackNavigator(
-  {StackLogin, Drawer},
+  // não esquece de colocar as paginas que serão usadas aqui em routes, em sequencia
+  {StackLogin, Drawer, Product},
   //tira cabeçalho
   {headerMode: 'none'},
 );
