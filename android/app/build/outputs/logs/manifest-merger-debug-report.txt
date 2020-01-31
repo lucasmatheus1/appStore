@@ -5,6 +5,7 @@ INJECTED from /home/lucas/Documents/buscaLoja/android/app/src/main/AndroidManife
 INJECTED from /home/lucas/Documents/buscaLoja/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /home/lucas/Documents/buscaLoja/android/app/src/main/AndroidManifest.xml:1:1-26:12
 MERGED from /home/lucas/Documents/buscaLoja/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-vector-icons] /home/lucas/Documents/buscaLoja/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-webview] /home/lucas/Documents/buscaLoja/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-23:12
 MERGED from [com.facebook.react:react-native:0.61.5] /home/lucas/.gradle/caches/transforms-2/files-2.1/a6cbd3d93cd54bb97d07eb8cbca07339/AndroidManifest.xml:2:1-13:12
 MERGED from [org.webkit:android-jsc:r245459] /home/lucas/.gradle/caches/transforms-2/files-2.1/fe0e9833f05d56d89bffd1576a3afed9/AndroidManifest.xml:2:1-11:12
@@ -135,6 +136,8 @@ uses-sdk
 INJECTED from /home/lucas/Documents/buscaLoja/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/lucas/Documents/buscaLoja/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/lucas/Documents/buscaLoja/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-vector-icons] /home/lucas/Documents/buscaLoja/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/lucas/Documents/buscaLoja/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-webview] /home/lucas/Documents/buscaLoja/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-webview] /home/lucas/Documents/buscaLoja/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.5] /home/lucas/.gradle/caches/transforms-2/files-2.1/a6cbd3d93cd54bb97d07eb8cbca07339/AndroidManifest.xml:7:5-9:41
