@@ -1,6 +1,6 @@
 ## Aplicativo - Busca Loja
 
-![](mediaReadmeGit/gifApp.mp4)
+![](mediaReadmeGit/gifApp.gif)
 
 O aplicativo disponibiliza links para sites de lojas nacionais e internacionais.
 
