@@ -6,7 +6,7 @@ import Icon from 'react-native-vector-icons/Entypo';
 import Login from './pages/login';
 
 import lojasNacionais from './pages/lojasNacionais';
-import lojasinternacionais from './pages/product';
+import lojasinternacionais from './pages/lojasInternacionais';
 
 import Product from './pages/product';
 
@@ -16,6 +16,7 @@ const drawerPages = createDrawerNavigator(
     lojasinternacionais: lojasinternacionais,
   },
   {
+    drawerPosition: 'left',
     navigationOptions: {},
   },
 );
@@ -26,6 +27,7 @@ const Drawer = createStackNavigator(
   },
   {
     navigationOptions: navigator => ({
+      title: 'Sites',
       headerStyle: {
         backgroundColor: '#4c8aed',
       },

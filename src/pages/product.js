@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
-import {Text} from 'react-native';
 import WebView from 'react-native-webview';
 
-const Product = () => (
-  <WebView source={{uri: 'https://www.mercadolivre.com.br/'}}></WebView>
+const Product = ({navigation}) => (
+  <WebView source={{uri: navigation.state.params.product.url}}></WebView>
 );
+
+Product.navigationOptions = ({navigation}) => ({
+  title: navigation.state.params.product.name,
+});
 
 export default Product;

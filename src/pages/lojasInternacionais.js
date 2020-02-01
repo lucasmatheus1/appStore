@@ -4,6 +4,8 @@ import {View, Text, StyleSheet, FlatList, TouchableOpacity} from 'react-native';
 import api from '../services/api';
 
 export default class lojasInternacionais extends Component {
+  static navigationOptions = {title: 'Lojas Internacionais'};
+
   state = {
     docs: [],
   };
@@ -14,7 +16,15 @@ export default class lojasInternacionais extends Component {
 
   loadProducts = async () => {
     const response = await api.get('/products');
-    const docs = response.data;
+    const aux = response.data;
+
+    const docs = [];
+
+    for (var i = 0; i < aux.length; i++) {
+      if (aux[i].type === 'Internacional' || aux[i].type === 'internacional') {
+        docs.push(aux[i]);
+      }
+    }
 
     this.setState({docs});
   };
@@ -26,7 +36,7 @@ export default class lojasInternacionais extends Component {
       <TouchableOpacity
         style={styles.botaoProduto}
         onPress={() => {
-          this.props.navigation.navigate('Product');
+          this.props.navigation.navigate('Product', {product: item});
         }}>
         <Text style={styles.botaoProdutoText}>Acessar</Text>
       </TouchableOpacity>
