@@ -14,7 +14,11 @@ class Login extends Component {
         <Text style={styles.text}>Login</Text>
         <TextInput style={styles.textPlaceHolder} placeholder="E-mail" />
         <Text style={styles.text}>Senha</Text>
-        <TextInput style={styles.textPlaceHolder} placeholder="Senha" />
+        <TextInput
+          secureTextEntry={true}
+          style={styles.textPlaceHolder}
+          placeholder="Senha"
+        />
         <TouchableOpacity
           style={styles.button}
           onPress={() => {
