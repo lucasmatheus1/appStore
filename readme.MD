@@ -25,5 +25,5 @@ react-navigation: 2.18.3
 
 - Concluir a tela de login com validação de usuário no banco de dados.
 - Melhorar a interface gráfica
-- Adicionar mais funcionalidades
 - Melhorar transição entre telas
+- Adicionar mais funcionalidades
