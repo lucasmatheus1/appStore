@@ -1,6 +1,34 @@
-## Aplicativo - Busca Loja
+## App - Search store
 
 ![](mediaReadmeGit/gifApp.gif)
+
+The application provides links to national and international store websites.
+
+### Operation
+
+When opening the app, the user finds a login screen that asks for email and password. The next screen has a drawer navigator with a button on the header. In the drawer navigator there are fields for the user to choose which screen he wants to view. When the user selects a website option, a webview is launched with the chosen website.
+
+### Dependencies
+
+The dependencies are:
+
+axes: 0.19.2
+react: 16.9.0
+react-native: 0.61.5
+react-native-vector-icons: 6.6.0
+react-native-webview: 8.0.6
+react-navigation: 2.18.3
+
+> All can be obtained through npm
+
+### Future works
+
+- Complete the login screen with user validation in the database.
+- Improve the graphical interface
+- Improve transition between screens
+- Add more features
+
+Português:
 
 O aplicativo disponibiliza links para sites de lojas nacionais e internacionais.
 
