@@ -28,6 +28,8 @@ react-navigation: 2.18.3
 - Improve transition between screens
 - Add more features
 
+--------------------------------------------------------------------------------------------------------------------
+
 Português:
 
 O aplicativo disponibiliza links para sites de lojas nacionais e internacionais.
